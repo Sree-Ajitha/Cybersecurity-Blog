@@ -35,6 +35,8 @@ There was no adversarial framing, no attempt at prompt injection, and no request
 
 On its own, censored profanity might seem trivial. What makes it worth documenting is the context in which it appeared: a neutral, professional, entirely benign exchange with no prompting toward that kind of language at all. That gap between input and output is the interesting part.
 
+<img width="458" height="427" alt="Screenshot 2026-07-02 161508" src="https://github.com/user-attachments/assets/82010fa5-e69c-4c6e-bf80-dfe59224e162" />
+
 ## Why This Matters
 
 Content safety systems in large language models are generally built to hold steady regardless of tone, so long as the underlying request stays within acceptable bounds. A casual compliment should not be a trigger for a shift in language register, censored or otherwise. When it is, it suggests the model's internal state can be nudged by phrasing that has nothing to do with the actual safety boundary being tested.
@@ -59,7 +61,3 @@ This finding was reported to OpenAI in good faith before any public disclosure. 
 Most AI safety conversations focus on the big, dramatic failures: jailbreaks, data leaks, harmful content generation under adversarial pressure. This one is none of those things. It is a small reminder that even well-aligned systems can behave unpredictably in the most ordinary of moments, and that watching for those moments is still worth doing.
 
 If you have noticed similar quirks in AI models you work with, I would genuinely like to hear about them. The more of us paying attention to the quiet edge cases, the better these systems get over time.
-
----
-
-*Sree Ajitha is a Systems Support Analyst and Cybersecurity Specialist based in Wellington, New Zealand, with a Master of Information Technology in Cybersecurity (Honours) from Whitecliffe College.*
