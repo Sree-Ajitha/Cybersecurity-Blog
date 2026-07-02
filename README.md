@@ -1,5 +1,5 @@
 # Cybersecurity-Blog
-delivering timely analyses, expert insights, and practical guidance on emerging cyber threats, defense strategies, and industry best practices.
+Delivering timely analyses, expert insights, and practical guidance on emerging cyber threats, defense strategies, and industry best practices.
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ---
